@@ -26,10 +26,10 @@ export default function Home() {
     <>
       <HeroSection id={sections.hero} />
       <AboutSection id={sections.about} />
-      {/* <ProjectSection id={sections.project} /> */}
+      <ProjectSection id={sections.project} />
       <SkillsSection id={sections.skills} />
-      {/* <ContactMeSection id={sections.contact} /> */}
-      {/* <ResumeSection id={sections.resume} /> */}
+      <ContactMeSection id={sections.contact} />
+      <ResumeSection id={sections.resume} />
     </>
   );
 }
